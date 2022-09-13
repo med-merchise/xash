@@ -3,7 +3,18 @@ name = "xash"
 version = "0.1.0"
 description = "Data Science, Data Analysis, Plotting, ..."
 authors = ["Medardo Antonio Rodriguez"]
-license = "GNU General Public License v3 or later (GPLv3+)"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/med-merchise/xash"
+keywords = ["data-science", "data-analysis"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Topic :: Software Development",
+    "Topic :: Data Science",
+    "Topic :: Data Analysis",
+]
+readme = "README.rst"
 
 [tool.poetry.dependencies]
 python = "^3.10"
