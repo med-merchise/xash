@@ -19,6 +19,8 @@ readme = "README.rst"
 [tool.poetry.dependencies]
 python = "^3.10"
 xit = {path = "../xit", develop = true}
+pandas = "^1.4.4"
+scipy = "^1.9.1"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^4.0.1"

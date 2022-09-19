@@ -12,6 +12,17 @@ Rationale:
    :depth: 1
 
 
+Check data analysis and manipulation tool
+-----------------------------------------
+
+- scipy_: mathematics, science, and engineering - statistics, optimization,
+  integration, linear algebra, Fourier transforms, signal and image
+  processing, ODE solvers, ...
+
+
+.. _scipy: https://github.com/scipy/scipy
+
+
 Check visualization tools
 -------------------------
 
@@ -24,7 +35,7 @@ Check visualization tools
   See flasked-altair_, a demo Flask application of using Altair_ to generate
   D3 charts using Vega grammar.
 
-- seaborn_: statistical data visualization -
+- seaborn_: statistical data visualization.
 
 - google-chart_: Google tool to display live data on your site.
 
