@@ -1,14 +1,18 @@
 After installation tasks
 ========================
 
-Rationale
----------
+Rationale:
 
-After adding `xash` as a dependency in a project, check this list of tasks.
+  After adding `xash` as a dependency in a project, check this list of tasks.
 
 
 Full list
 ---------
+
+- Check this same section for all dependencies:
+
+  + `xit`
+  + `xit.books`
 
 - To install `scipy`, the `python` version constraint had to be changed from
   using caret (``"^3.10"``) to use tilde (``"~3.10"``).  This was to avoid a
