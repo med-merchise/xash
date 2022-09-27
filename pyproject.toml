@@ -21,6 +21,16 @@ python = "^3.10"
 xit = {path = "../xit", develop = true}
 pandas = "^1.4.4"
 scipy = "^1.9.1"
+cufflinks = { version = "^0.17.3", optional = true }
+
+[tool.poetry.extras]
+plotly = [
+    "cufflinks",
+]
+all = [
+    # plotly
+    "cufflinks",
+]
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^4.0.1"
