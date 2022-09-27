@@ -22,14 +22,20 @@ xit = {path = "../xit", develop = true}
 pandas = "^1.4.4"
 scipy = "^1.9.1"
 cufflinks = { version = "^0.17.3", optional = true }
+openpyxl = { version = "^3.0.10", optional = true }
 
 [tool.poetry.extras]
 plotly = [
     "cufflinks",
 ]
+office = [
+    "openpyxl",
+]
 all = [
     # plotly
     "cufflinks",
+    # office
+    "openpyxl",
 ]
 
 [tool.poetry.group.dev.dependencies]
