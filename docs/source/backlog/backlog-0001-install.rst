@@ -21,3 +21,17 @@ Full list
 
 .. _pi4316: https://github.com/python-poetry/poetry/issues/4316
 .. _ppds: https://python-poetry.org/docs/dependency-specification/
+
+- To generate static images for web-based visualization libraries, for example
+  when integrating Jupyter Notebooks in Sphinx (see MyST-NB_, and `xit.books`_
+  documentation), a library like Kaleido_ must be used.
+
+  .. note:: Check this!
+
+     When I added this package using ``poetry``, it selected the version
+     ``"^0.2.1.post1"``.  Then the ``install`` command could not locate a
+     version compatible with it, to solve the problem ``"0.2.1"`` was used.
+
+.. _myst-nb: https://github.com/executablebooks/MyST-NB
+.. _Kaleido: https://github.com/plotly/Kaleido
+.. _xit.books: https://github.com/med-merchise/xit.books
