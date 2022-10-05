@@ -7,10 +7,23 @@ Data science, data analysis, graph visualization, ...
 Install
 -------
 
-.. note:: Check the document "After installation tasks" in the file
-         ``docs/source/backlog/backlog-0001-install.rst``.
+Development Stage:
 
-*This section is under construction*
+  Check `ADR-4`_ on project `xit` about how to use poetry_ to manage how to
+  evolve projects on development stages.
+
+.. _adr-4: https://github.com/med-merchise/xit/blob/main/docs/source/adrs/adr-0004-poetry-for-development-stage.rst
+.. _poetry: https://python-poetry.org
+
+Production Stage:
+
+  *This section is under construction*
+
+After installation tasks:
+
+  Each of our projects should have a ``backlog-0001`` document with task to
+  execute after a project is installed.  This document must be located in the
+  ``docs/source/backlog`` directory.
 
 
 Documentation
