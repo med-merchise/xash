@@ -28,6 +28,7 @@ plotly = {version = "^5.10.0", optional = true}
 cufflinks = { version = "^0.17.3", optional = true }
 kaleido = {version = "0.2.1", optional = true}
 openpyxl = { version = "^3.0.10", optional = true }
+odfpy = {version = "^1.4.1", optional = true}
 plotly-geo = {version = "^1.0.0", optional = true}
 dash = {version = "^2.6.2", optional = true}
 dash-bootstrap-components = {version = "^1.2.1", optional = true}
@@ -61,6 +62,7 @@ geo = [
 ]
 office = [
     "openpyxl",
+    "odfpy",
 ]
 all = [
     # data
@@ -83,6 +85,7 @@ all = [
     "plotly-geo",
     # office
     "openpyxl",
+    "odfpy",
 ]
 
 [tool.poetry.group.dev.dependencies]
